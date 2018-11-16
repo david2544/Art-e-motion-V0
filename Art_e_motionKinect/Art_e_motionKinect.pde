@@ -33,6 +33,7 @@ void draw()
         if(totalPixels > 100) {
           result.pixels[offset] = color(255, 150, 244);
           // Print how many times there were more than 100 pixels within the threshold
+          // Comment this out if its too laggy
           print(k + 1, "\n");
           k = k + 1;
         }
